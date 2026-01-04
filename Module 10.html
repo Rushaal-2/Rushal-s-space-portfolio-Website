@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rushaals Space-Themed Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: black url('https://www.transparenttextures.com/patterns/stardust.png');
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      color: #7df9ff;
+      text-shadow: 0 0 15px #7df9ff;
+    }
+    nav {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: #ff6ad5;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 0 0 8px #ff6ad5;
+    }
+    nav a:hover {
+      color: #7df9ff;
+      text-shadow: 0 0 12px #7df9ff;
+    }
+    section {
+      padding: 40px 20px;
+      margin: 20px auto;
+      max-width: 1000px;
+      background: #0a0a0a;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(125, 249, 255, 0.3);
+    }
+    section h2 {
+      color: #7df9ff;
+      text-shadow: 0 0 12px #7df9ff;
+      margin-bottom: 20px;
+    }
+    .project {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(255, 106, 213, 0.3);
+    }
+    .project h3 {
+      color: #ff6ad5;
+      text-shadow: 0 0 10px #ff6ad5;
+    }
+    .project p {
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #888;
+      font-size: 0.9em;
+    }
+    /* Planets & Asteroids */
+    .planet {
+      position: fixed;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #ff6ad5, #111);
+      box-shadow: 0 0 40px #ff6ad5;
+      z-index: -1;
+    }
+    .planet.left { left: 20px; top: 40%; }
+    .planet.right { right: 20px; top: 20%; }
+    .asteroid {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #888, #222);
+      box-shadow: 0 0 20px #aaa;
+      z-index: -1;
+    }
+    .asteroid.top { left: 50%; top: 10%; }
+    .asteroid.bottom { right: 30%; bottom: 10%; }
+  </style>
+</head>
+<body>
+
+  <!-- Planets & Asteroids -->
+  <div class="planet left"></div>
+  <div class="planet right"></div>
+  <div class="asteroid top"></div>
+  <div class="asteroid bottom"></div>
+
+  <!-- Header -->
+  <header>
+    <h1>🌌 Rushaals Space-Themed Portfolio</h1>
+    <p>Showcasing my Bootcamp Creations</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#module1">Module 1</a>
+    <a href="#module2">Module 2</a>
+    <a href="#module3">Module 3</a>
+    <a href="#module4">Module 4</a>
+    <a href="#module5">Module 5</a>
+    <a href="#module6">Module 6</a>
+    <a href="#module7">Module 7</a>
+    <a href="#module8">Module 8</a>
+    <a href="#module9">Module 9</a>
+    <a href="#about">About Me</a>
+  </nav>
+
+  <!-- 9 Modules -->
+  <section id="module1:A Peak at Mars"><h2>🚀 Module 1:A Peak at Mars</h2><div class="project"><h3>Project Link</h3><p><a href="https://astro-mars-dodger.lovable.app/"> My Module 1 Link</a></p></div></section>
+  <section id="module2:Going To Mars"><h2>🪐 Module 2:Going To Mars</h2><div class="project"><h3>Project Link</h3><p><a href="https://www.meshy.ai/3d-models/Two-booster-rockets-first-stageA-secondstage-of-rocket-fuel-tankA-thirdstage-of-rocket-fuel-tankA-human-pod-to-carry-human-beings-above-the-third-stageAn-escape-pod-to-carry-humans-back-to-Earth-in-case-the-rocket-fails-v2-019b5ad1-ec61-71c4-abc8-f4bf5871feb8"> My Module 2 Link</a></p></div></section>
+  <section id="module3:Exploring Martian Terrain"><h2>🌍 Modul:Exploring Martian Terrain 3</h2><div class="project"><h3>Project Link</h3><p><a href="https://www.meshy.ai/3d-models/make-a-rover-with-all-facilities-basically-make-arover-v2-019b5ae2-3221-7465-b981-e67fa7ae83ef">My Module 3 Link</a></p></div></section>
+  <section id="module4:Flying on Mars"><h2>🌌 Module 4:Flying on Mars</h2><div class="project"><h3>Project Link</h3><p><a href="https://www.meshy.ai/3d-models/make-a-helicopter-which-is-NASA-ingenuity-v2-019b5afa-8080-7bd9-af42-91d14937d90f"> My Module 4 link</a></p></div></section>
+  <section id="module5:Challenges of Living Mars"><h2>🛰️ Module 5:Challenges of Living Mars</h2><div class="project"><h3>Project Link</h3><p><a href="https://app.animaker.com/animo/VTKCds5JC7TajcPq/">My Module 5 Link</a></p></div></section>
+  <section id="module6:Terrafroming Mars"><h2>☄️ Module 6</h2><div class="project"><h3>Project Link</h3><p><a href="https://www.meshy.ai/3d-models/make-a-3d-Model-of-moxie-which-makes-oxygen-out-of-caron-dioxide-on-mars-add-wheels-and-camerawith-interior-and-add-some-algae-which-is-store-inside-and-is-released-every-10m-so-add-a-dropper-which-drops-algae-with-a-water-extraction-device-v2-019b6305-bdc1-74ee-8ae7-387a05eed30e"> My Module 6 Link</a></p></div></section>
+  <section id="module7:First Manned Mission To Mars"><h2>🌠 Module 7:Terrafroming Mars</h2><div class="project"><h3>Project Link</h3><p><a href="https://www.meshy.ai/3d-models/make-a-model-of-a-sevspace-exploration-vehicle-a-rover-Replace-the-cabin-with-a-sealed-pressurized-moduleAdd-radiation-shielding-and-oxygen-systemsSwap-the-tires-for-ones-designed-for-Martian-soilIntegrate-solar-panels-or-compact-reactors-for-powerMount-cameras-sensors-and-robotic-arms-for-exploration-v2-019b8367-3c71-7bf6-b38d-9312e20bf8b1">My Module 7 Link</a></p></div></section>
+  <section id="module8:Colonizing Mars"><h2>🛸 Module 8:Colonizing Mars</h2><div class="project"><h3>Project Link</h3><p><a href="https://www.meshy.ai/3d-models/Design-a-3D-model-of-a-Nuclear-reactor-on-Mars-v2-019b6514-b7e9-7ba5-9013-569137836bed">My Module 8 Link</a></p></div></section>
+  <section id="module9":Interplantery Travel><h2>🔭 Module 9:Interplantery Travel</h2><div class="project"><h3>Project Link</h3><p><a href="https://www.meshy.ai/3d-models/Design-a-3D-model-of-a-space-shuttle-with-these-featureA-space-shuttle-can-be-made-more-advanced-and-futureready-by-adding-features-that-improve-safety-efficiency-sustainability-and-crew-comfort-For-safety-it-could-include-advanced-radiation-shielding-to-protect-astronauts-from-harmful-cosmic-rays-AIpowered-monitoring-systems-to-detect-problems-early-and-selfhealing-materials-that-repair-small-cracks-automatically-To-boost-efficiency-reusable-propulsion-systems-and-hybrid-fuel-options-combining-traditional-rocket-fuel-with-solar-or-electric-propulsion-could-reduce-costs-and-extend-missions-while-adaptive-heat-shields-would-make-reentry-safer-Sustainable-systems-like-onboard-oxygen-generators-water-recycling-units-and-expandable-solar-panels-v2-019b6529-d4fe-7e46-9ce6-22c1f62d26df">My Module 9 Link</a></p></div></section>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>👤 About Me</h2>
+    <p><strong>Name:</strong> Rushaal Nadigar</p>
+    <p><strong>School:</strong> BGS National Public School</p>
+    <p><strong>Interests:</strong> I like to study scinece and other subjects and like to play football</p>
+    <p><strong>Future Goals:</strong>I wanna become more knowledgble and learn more while beinga good boy and become the best in football.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Rushaals Space-Themed Portfolio | Bootcamp Showcase</p>
+  </footer>
+
+</body>
+</html>
